@@ -56,6 +56,15 @@ function App() {
         subtitulo={'aaa'}
         itens={produtos}
       />
+      <section className='imagem de fundo'>
+        <h2>Texto para publico alvo</h2>
+
+        <div>
+          {/* card com imagem do produto e descrição */}
+        </div>
+
+        <button>conhecer mais</button>
+      </section>
     </>
   )
 }
