@@ -2,7 +2,7 @@ import Button from '../molecules/Button';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col bg-primary rounded-bl-full rounded-tl-full m-4 ms-10 p-2">
+    <footer className="flex flex-col bg-primary rounded-bl-full rounded-tl-full m-4 ms-10 ps-10 p-2">
       <nav className="grid grid-cols-4 px-2">
         <h2>Slogan bem legal da marca</h2>
         <ul className="justify-between">
