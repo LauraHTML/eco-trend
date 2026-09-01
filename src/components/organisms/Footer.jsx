@@ -2,9 +2,12 @@ import Button from '../molecules/Button';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col bg-primary rounded-bl-full rounded-tl-full m-4 ms-10 ps-10 p-2">
-      <nav className="grid grid-cols-4 px-2">
-        <h2>Slogan bem legal da marca</h2>
+    <footer className="flex flex-col bg-primary rounded-l-full rounded-r-xl m-4 ms-10 ps-10 p-2">
+      <nav className="grid grid-cols-6 px-2">
+        <div className="flex flex-col gap-3 items-start col-span-2">
+          <h2>Slogan bem legal da marca</h2>
+        </div>
+
         <ul className="justify-between">
           <h3>Suporte</h3>
           <li>Geral</li>
@@ -19,7 +22,7 @@ const Footer = () => {
           <li>aaa</li>
           <li>aaa</li>
         </ul>
-        <div id="form" className="bg-secondary flex flex-col gap-3 items-start">
+        <div id="form" className="flex flex-col gap-3 items-start col-span-2">
           <h3>Fique por dentro das últimas criações</h3>
           <form action="">
             <input className='bg-background p-2 rounded-md text-input-foreground' placeholder='Digite o seu email' type="text" />
