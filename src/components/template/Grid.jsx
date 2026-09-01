@@ -1,19 +1,25 @@
 import React from 'react'
+import Card from '../organisms/Card'
 
-const Grid = () => {
+const Grid = ({ titulo = 'titulo', subtitulo = 'subtitulo', itens = [] }) => {
   return (
-    <header>
-        <nav>
-            <span>EcoTrend</span>
-            <ul>
-                <li>Geral</li>
-                <li>Em promoção</li>
-                <li>Coleções</li>
-                <li>Reviews</li>
-            </ul>
-            <span>Carrinho</span>
-        </nav>
-    </header>
+    <section className='container mx-auto max-w-5xl flex flex-col items-center gap-4'>
+      <div>
+        <h1>{titulo}</h1>
+        <h4>{subtitulo}</h4>
+      </div>
+      {/* numero de linhas e colunas */}
+      <div className='grid grid-cols-4 gap-3'>
+        {Object.entries(itens).map(([chave, valor]) => (
+          <Card
+            key={valor.id}
+            titulo={valor.nome}
+            categorias={valor.categorias || []}
+            desc={valor.descricao}
+            preco={valor.preco} />
+        ))}
+      </div>
+    </section>
   )
 }
 

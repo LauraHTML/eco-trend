@@ -1,0 +1,35 @@
+[
+    {
+        "id": 2,
+        "nome": "aaaa",
+        "preco": 20.00,
+        "categorias": [
+            "joalheria",
+            "novo",
+            "promocao"
+        ],
+        "descricao": "descricao legal"
+    },
+    {
+        "id": 2,
+        "nome": "aaaa",
+        "preco": 20.00,
+        "categorias": [
+            "joalheria",
+            "novo",
+            "promocao"
+        ],
+        "descricao": "descricao legal"
+    },
+    {
+        "id": 2,
+        "nome": "aaaa",
+        "preco": 20.00,
+        "categorias": [
+            "joalheria",
+            "novo",
+            "promocao"
+        ],
+        "descricao": "descricao legal"
+    }
+]
