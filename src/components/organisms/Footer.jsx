@@ -26,7 +26,7 @@ const Footer = () => {
           <h3>Fique por dentro das últimas criações</h3>
           <form action="">
             <input className='bg-background p-2 rounded-md text-input-foreground' placeholder='Digite o seu email' type="text" />
-            <Button estilizacao={'bg-secondary p-2 border rounded-md mx-2 transition-3 hover:bg-secondary'} nome={'Inscreva-se'} />
+            <Button estilizacao={'bg-secondarys border rounded-md mx-2 transition-3 hover:bg-secondary'} nome={'Inscreva-se'} />
           </form>
           <h3>Nos siga nas redes sociais:</h3>
           <div className='grid grid-cols-3'>

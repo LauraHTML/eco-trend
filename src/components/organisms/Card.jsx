@@ -15,12 +15,13 @@ const Card = ({ titulo = 'card', categorias = [], desc = 'lorem ipsum', acao, pr
             </div>
             {/* body */}
             <div>
+                <img src={'/src/assets/hero.png'} />
                 <p className='text-muted-foreground'>{desc}</p>
             </div>
             {/* actions */}
             <div className='flex justify-between'>
                 <p>R$ {preco}</p>
-                <Button estilizacao={'rounded-md p-2'} nome={'Comprar'} />
+                <Button estilizacao={'rounded-md'} nome={'Comprar'} acao={acao} />
             </div>
         </div>
     )

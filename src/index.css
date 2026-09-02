@@ -3,15 +3,18 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-    --background: #2b2b2b;
-    --foreground: #e4e4e4;
+    --primary: #05668dff;
+    --secondary: #028090ff;
+    --verdigris: #00a896ff;
+    --mint-leaf: #02c39aff;
+    --cream: #f0f3bdff;
+    --foreground: #2b2b2b;
+    --background: #e4e4e4;
     --card: #ffffff;
     --card-foreground: #333333;
     --popover: #ffffff;
     --popover-foreground: #333333;
-    --primary: #34a85a;
     --primary-foreground: #ffffff;
-    --secondary: #6495ed;
     --secondary-foreground: #ffffff;
     --muted: #ddd9c4;
     --muted-foreground: #6e6e6e;
@@ -21,12 +24,7 @@
     --destructive-foreground: #ffffff;
     --border: #d4d4d4;
     --input: #d4d4d4;
-    --ring: #34a85a;
-    --chart-1: #34a85a;
-    --chart-2: #6495ed;
-    --chart-3: #66d9ef;
-    --chart-4: #4682b4;
-    --chart-5: #1a9641;
+    --ring: #02c39aff;
     --sidebar: #f9f9fa;
     --sidebar-foreground: #333333;
     --sidebar-primary: #34a85a;
@@ -195,6 +193,18 @@ body,
 p,
 a {
     font-family: 'Inter Tight', sans-serif;
+}
+
+h1 {
+  /* clamp(mínimo, tamanho dinâmico, máximo) */
+  font-size: clamp(2rem, 5vw, 4.5rem);
+}
+h2 {
+  /* clamp(mínimo, tamanho dinâmico, máximo) */
+  font-size: clamp(1rem, 4vw, 3.5rem);
+}
+h3{
+    font-size: clamp(0.3rem, 2vw, 2rem);
 }
 
 @layer base {
