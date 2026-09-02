@@ -24,12 +24,12 @@ const Footer = () => {
         </ul>
         <div id="form" className="flex flex-col gap-3 items-start col-span-2 bg-background m-2 rounded-md p-4">
           <h3>Fique por dentro das últimas criações</h3>
-          <form action="" className='grid grid-cols-2 gap-0'>
+          <form action="" className='flex flex-wrap gap-0 w-auto'>
             <input className='bg-background p-2 rounded-md text-input-foreground' placeholder='Digite o seu email' type="text" />
             <Button estilizacao={'bg-secondarys border rounded-md mx-2 transition-3 hover:bg-secondary'} nome={'Inscreva-se'} />
           </form>
           <h3>Nos siga nas redes sociais:</h3>
-          <div className='grid grid-cols-3'>
+          <div className='flex flex-wrap'>
             <span>insta</span>
             <span>x</span>
             <span>facebook</span>

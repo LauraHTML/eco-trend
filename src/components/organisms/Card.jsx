@@ -1,29 +1,28 @@
-import React from 'react';
 import Button from '../molecules/Button';
 
 const Card = ({ titulo = 'card', categorias = [], desc = 'lorem ipsum', acao, preco }) => {
     return (
-        <div className='bg-card p-4 border rounded-md flex flex-col gap-6 w-full max-w-xl m-2'>
+        <article className='bg-card p-4 border rounded-md flex flex-col gap-6 w-full max-w-xl m-2 h-full min-h-90'>
             {/* header */}
             <div>
                 <h3>{titulo}</h3>
-                <div className='grid grid-flow-col gap-2'>
+                <div className='grid grid-flow-col gap-2 bg-accent'>
                     {categorias.map((categoria) => {
                         <span key={categoria}>{categoria}</span>
                     })}
                 </div>
             </div>
             {/* body */}
-            <div className='border-b-2 border-dashed py-2'>
+            <div className='border-b-2 border-dashed py-4'>
                 <img src={'/src/assets/hero.png'} height={150} width={200}/>
-                <p className='text-muted-foreground'>{desc}</p>
+                <p className='text-muted-foreground line-clamp-3'>{desc}</p>
             </div>
             {/* actions */}
-            <div className='flex justify-between items-center px-2'>
+            <div className='flex flex-col md:flex-row justify-between items-center px-2 mt-auto'>
                 <p>R$ {preco}</p>
                 <Button estilizacao={'rounded-md bg-secondary'} nome={'Comprar'} acao={acao} />
             </div>
-        </div>
+        </article>
     )
 }
 
