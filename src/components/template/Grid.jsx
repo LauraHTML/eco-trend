@@ -9,7 +9,7 @@ const Grid = ({ titulo = 'titulo', subtitulo = 'subtitulo', itens = [] }) => {
         <h4>{subtitulo}</h4>
       </div>
       {/* numero de linhas e colunas */}
-      <div className='grid grid-cols-4 gap-3'>
+      <div className='grid grid-cols-3 gap-3'>
         {Object.entries(itens).map(([chave, valor]) => (
           <Card
             key={valor.id}

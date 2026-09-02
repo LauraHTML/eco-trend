@@ -2,7 +2,7 @@ import Button from '../molecules/Button';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col bg-primary rounded-l-full rounded-r-xl m-4 ms-10 ps-10 p-2">
+    <footer className="flex flex-col bg-primary m-4 p-2 rounded-xl">
       <nav className="grid grid-cols-6 px-2">
         <div className="flex flex-col gap-3 items-start col-span-2">
           <h2>Slogan bem legal da marca</h2>
@@ -22,9 +22,9 @@ const Footer = () => {
           <li>aaa</li>
           <li>aaa</li>
         </ul>
-        <div id="form" className="flex flex-col gap-3 items-start col-span-2">
+        <div id="form" className="flex flex-col gap-3 items-start col-span-2 bg-background m-2 rounded-md p-4">
           <h3>Fique por dentro das últimas criações</h3>
-          <form action="">
+          <form action="" className='grid grid-cols-2 gap-0'>
             <input className='bg-background p-2 rounded-md text-input-foreground' placeholder='Digite o seu email' type="text" />
             <Button estilizacao={'bg-secondarys border rounded-md mx-2 transition-3 hover:bg-secondary'} nome={'Inscreva-se'} />
           </form>
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
       </nav>
-      <div id='logo' className="bg-secondary col-span-2">
+      <div id='logo' className="col-span-2">
         <h2>EcoTrend</h2>
       </div>
     </footer>

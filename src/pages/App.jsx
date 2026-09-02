@@ -1,9 +1,9 @@
-import CTA from './components/template/CTA';
-import Footer from './components/organisms/Footer';
-import Card from './components/organisms/Card';
-import Button from './components/molecules/Button';
+import CTA from '../components/template/CTA';
+import Footer from '../components/organisms/Footer';
+import Card from '../components/organisms/Card';
+import Button from '../components/molecules/Button';
 
-import './App.css'
+import '../App.css'
 
 function App() {
 

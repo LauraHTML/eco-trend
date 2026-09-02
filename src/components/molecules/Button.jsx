@@ -10,8 +10,8 @@ const Button = ({ acao, estilizacao, nome, icone: Icon = MoveRight }) => {
 
     return (
         <button className={`flex flex-row items-center gap-2 whitespace-nowrap ${estilizacao} p-2 px-3`} onClick={acao}>
-            <Icon size={18} />
             {nome}
+            <Icon size={18} />
         </button>
     )
 }
