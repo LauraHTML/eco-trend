@@ -6,11 +6,6 @@ const Card = ({ titulo = 'card', categorias = [], desc = 'lorem ipsum', acao, pr
             {/* header */}
             <div>
                 <h3>{titulo}</h3>
-                <div className='grid grid-flow-col gap-2 bg-accent'>
-                    {categorias.map((categoria) => {
-                        <span key={categoria}>{categoria}</span>
-                    })}
-                </div>
             </div>
             {/* body */}
             <div className='border-b-2 border-dashed py-4'>
