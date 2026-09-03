@@ -18,23 +18,33 @@ function App() {
         imagemFundo={'bg-[url(/fundo-hero.png)] bg-no-repeat bg-cover'}
       />
 
-      <section className='bg-[url(/fundo.jpg)] text-primary-foreground bg-no-repeat bg-cover h-1/2 w-full flex flex-col lg:flex-row justify-between items-end gap-4 text-center py-10 px-8 '>
-        <div>
-          <h2>A Natureza Reinventada em Joias</h2>
-        <Button nome={'Conheça mais sobre nós'} estilizacao={'rounded-md bg-secondary rounded-full'} />
+      <section className="relative overflow-hidden">
+      <div className="relative min-h-45 w-full">
+        <img
+          src="/fundo.jpg"
+          alt="Colar e brincos feitos de vidro do mar e metal reciclado sobre uma pedra à beira-mar"
+          height={200}
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#031c26]/85 via-[#031c26]/55 to-transparent" />
+      </div>
+
+      <div className="absolute inset-0 flex items-center">
+        <div className="mx-auto w-full max-w-6xl px-6 md:px-10">
+          <div className="max-w-md">
+            <h2 className='text-primary-foreground'>A Natureza Reinventada em Joias</h2>
+            <p className="mt-4 text-pretty text-white/80">
+              Conheça as coleções da Eco Trend e escolha uma peça que já
+              começou como parte do oceano.
+            </p>
+            <Button nome={'Ver produtos'} estilizacao={'mt-7 h-11 gap-2 rounded-full bg-secondary px-6 text-secondary-foreground hover:bg-secondary/85'} /> 
+            
+          </div>
         </div>
-         <div className='p-4 border rounded-md flex flex-col gap-4 items-center '>
-          <h3>O que nós criamos</h3>
-            <div>
-                <img src={'/src/assets/hero.png'} height={200} width={100} />
-                <p className='text-primary-foreground'>aaa</p>
-            </div>
-            {/* actions */}
-            <div className='w-full border-t-2 border-dashed'>
-                <p>Origem do material aaaa</p>
-            </div>
-        </div>
-      </section>
+      </div>
+    </section>
+
+
 
       <section className='container mx-auto max-w-5xl flex flex-col lg:flex-row items-start justify-around gap-4 py-20'>
           

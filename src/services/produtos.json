@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "nome": "Colar Gota de Vidro do Mar",
         "preco": 149.9,
         "descricao": "Pingente feito com vidro do mar verde esmeralda, lapidado naturalmente pelas ondas e recolhido no litoral. Corrente em prata reciclada.",
@@ -9,6 +10,7 @@
         "desconto": 0
     },
     {
+        "id": 1,
         "nome": "Brincos Trama de Rede",
         "preco": 89.9,
         "descricao": "Brincos leves e coloridos criados a partir de redes de pesca 'fantasma' retiradas de corais, entrelaçadas à mão.",
@@ -18,6 +20,7 @@
         "desconto": 15
     },
     {
+        "id": 2,
         "nome": "Pulseira Maré de Plástico",
         "preco": 119.5,
         "descricao": "Contas texturizadas formadas pelo derretimento de microplásticos retirados da areia. Cada peça tem um padrão de cores único.",
@@ -27,6 +30,7 @@
         "desconto": 0
     },
     {
+        "id": 3,
         "nome": "Anel Concha Prateada",
         "preco": 185.0,
         "descricao": "Uma concha fragmentada encontrada na praia, restaurada e encapsulada em resina ecológica sobre uma base de metal reciclado.",
@@ -36,6 +40,7 @@
         "desconto": 20
     },
     {
+        "id": 4,
         "nome": "Colar Madeira Flutuante",
         "preco": 135.0,
         "descricao": "Pedaço único de madeira trazida pelo mar (driftwood), polida e adornada com detalhes em latão reaproveitado.",
@@ -45,6 +50,7 @@
         "desconto": 0
     },
     {
+        "id": 5,
         "nome": "Argolas Alumínio do Mar",
         "preco": 95.0,
         "descricao": "Argolas com textura martelada feitas inteiramente de anéis de latinha de alumínio encontrados nas praias.",
@@ -54,6 +60,7 @@
         "desconto": 10
     },
     {
+        "id": 6,
         "nome": "Tornozeleira Corda Náutica",
         "preco": 65.0,
         "descricao": "Feita com fios desfiados e higienizados de antigas cordas de barcos, acompanhada de pequenos pingentes de aço reciclado.",
@@ -63,6 +70,7 @@
         "desconto": 0
     },
     {
+        "id": 7,
         "nome": "Choker Oceano de PET",
         "preco": 79.9,
         "descricao": "Gargantilha translúcida em tons de azul e verde, moldada a partir de garrafas PET resgatadas da costa.",
@@ -72,6 +80,7 @@
         "desconto": 25
     },
     {
+        "id": 8,
         "nome": "Brincos Escama de Metal",
         "preco": 110.0,
         "descricao": "Design inspirado em escamas de peixe, utilizando chapas de metal descartadas e tratadas para resistir à oxidação.",
@@ -80,7 +89,8 @@
         "promocao": false,
         "desconto": 0
     },
-    {
+    {   
+        "id": 9,
         "nome": "Conjunto Pulseiras Coral",
         "preco": 155.0,
         "descricao": "Mix de 3 pulseiras feitas com tampinhas de garrafa trituradas, simulando a textura e as cores vibrantes dos recifes de corais.",
