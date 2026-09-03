@@ -14,6 +14,7 @@ const Grid = ({ titulo = 'titulo', subtitulo = 'subtitulo', itens = [], acaoCard
           <Card
             key={valor.id}
             titulo={valor.nome}
+            imagem={valor.imagem}
             categorias={valor.categorias || []}
             desc={valor.descricao}
             preco={valor.preco}

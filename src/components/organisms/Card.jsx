@@ -1,6 +1,6 @@
 import Button from '../molecules/Button';
 
-const Card = ({ titulo = 'card', categorias = [], desc = 'lorem ipsum', acao, preco }) => {
+const Card = ({ titulo = 'card', categorias = [], desc = 'lorem ipsum', acao, preco, imagem }) => {
     return (
         <article className='bg-card p-4 border rounded-md flex flex-col gap-6 w-full max-w-xl m-2 h-full min-h-90'>
             {/* header */}
@@ -14,7 +14,7 @@ const Card = ({ titulo = 'card', categorias = [], desc = 'lorem ipsum', acao, pr
             </div>
             {/* body */}
             <div className='border-b-2 border-dashed py-4'>
-                <img src={'/src/assets/hero.png'} height={150} width={200}/>
+                <img src={imagem} alt={titulo} className="w-full h-48 object-cover rounded-md"/>
                 <p className='text-muted-foreground line-clamp-3'>{desc}</p>
             </div>
             {/* actions */}

@@ -4,7 +4,7 @@
         "nome": "Colar Gota de Vidro do Mar",
         "preco": 149.9,
         "descricao": "Pingente feito com vidro do mar verde esmeralda, lapidado naturalmente pelas ondas e recolhido no litoral. Corrente em prata reciclada.",
-        "imagem": "/imagens/produtos/colar-gota-vidro.jpg",
+        "imagem": "/assets/brinco-azul.jpeg",
         "categoria": "Colares",
         "promocao": false,
         "desconto": 0
@@ -14,7 +14,7 @@
         "nome": "Brincos Trama de Rede",
         "preco": 89.9,
         "descricao": "Brincos leves e coloridos criados a partir de redes de pesca 'fantasma' retiradas de corais, entrelaçadas à mão.",
-        "imagem": "/imagens/produtos/brincos-rede.jpg",
+        "imagem": "/assets/brinco-azul.jpeg",
         "categoria": "Brincos",
         "promocao": true,
         "desconto": 15
