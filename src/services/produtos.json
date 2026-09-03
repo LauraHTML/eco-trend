@@ -4,7 +4,7 @@
         "nome": "Colar Gota de Vidro do Mar",
         "preco": 149.9,
         "descricao": "Pingente feito com vidro do mar verde esmeralda, lapidado naturalmente pelas ondas e recolhido no litoral. Corrente em prata reciclada.",
-        "imagem": "/assets/brinco-azul.jpeg",
+        "imagem": "/produtos/brinco-azul.jpeg",
         "categoria": "Colares",
         "promocao": false,
         "desconto": 0
@@ -14,7 +14,7 @@
         "nome": "Brincos Trama de Rede",
         "preco": 89.9,
         "descricao": "Brincos leves e coloridos criados a partir de redes de pesca 'fantasma' retiradas de corais, entrelaçadas à mão.",
-        "imagem": "/assets/brinco-azul.jpeg",
+        "imagem": "/produtos/brinco-colorido.jpeg",
         "categoria": "Brincos",
         "promocao": true,
         "desconto": 15
@@ -24,7 +24,7 @@
         "nome": "Pulseira Maré de Plástico",
         "preco": 119.5,
         "descricao": "Contas texturizadas formadas pelo derretimento de microplásticos retirados da areia. Cada peça tem um padrão de cores único.",
-        "imagem": "/imagens/produtos/pulseira-mare.jpg",
+        "imagem": "/produtos/pulseira-mare.jpg",
         "categoria": "Pulseiras",
         "promocao": false,
         "desconto": 0
@@ -34,7 +34,7 @@
         "nome": "Anel Concha Prateada",
         "preco": 185.0,
         "descricao": "Uma concha fragmentada encontrada na praia, restaurada e encapsulada em resina ecológica sobre uma base de metal reciclado.",
-        "imagem": "/imagens/produtos/anel-concha.jpg",
+        "imagem": "/produtos/anel-concha.jpg",
         "categoria": "Anéis",
         "promocao": true,
         "desconto": 20
@@ -44,7 +44,7 @@
         "nome": "Colar Madeira Flutuante",
         "preco": 135.0,
         "descricao": "Pedaço único de madeira trazida pelo mar (driftwood), polida e adornada com detalhes em latão reaproveitado.",
-        "imagem": "/imagens/produtos/colar-madeira.jpg",
+        "imagem": "/produtos/colar-madeira.jpg",
         "categoria": "Colares",
         "promocao": false,
         "desconto": 0
@@ -54,7 +54,7 @@
         "nome": "Argolas Alumínio do Mar",
         "preco": 95.0,
         "descricao": "Argolas com textura martelada feitas inteiramente de anéis de latinha de alumínio encontrados nas praias.",
-        "imagem": "/imagens/produtos/argolas-aluminio.jpg",
+        "imagem": "/produtos/argolas-aluminio.jpg",
         "categoria": "Brincos",
         "promocao": true,
         "desconto": 10
@@ -64,7 +64,7 @@
         "nome": "Tornozeleira Corda Náutica",
         "preco": 65.0,
         "descricao": "Feita com fios desfiados e higienizados de antigas cordas de barcos, acompanhada de pequenos pingentes de aço reciclado.",
-        "imagem": "/imagens/produtos/tornozeleira-corda.jpg",
+        "imagem": "/produtos/tornozeleira-corda.jpg",
         "categoria": "Tornozeleiras",
         "promocao": false,
         "desconto": 0
@@ -74,7 +74,7 @@
         "nome": "Choker Oceano de PET",
         "preco": 79.9,
         "descricao": "Gargantilha translúcida em tons de azul e verde, moldada a partir de garrafas PET resgatadas da costa.",
-        "imagem": "/imagens/produtos/choker-pet.jpg",
+        "imagem": "/produtos/choker-pet.jpg",
         "categoria": "Colares",
         "promocao": true,
         "desconto": 25
@@ -84,7 +84,7 @@
         "nome": "Brincos Escama de Metal",
         "preco": 110.0,
         "descricao": "Design inspirado em escamas de peixe, utilizando chapas de metal descartadas e tratadas para resistir à oxidação.",
-        "imagem": "/imagens/produtos/brincos-escama.jpg",
+        "imagem": "/produtos/brincos-escama.jpg",
         "categoria": "Brincos",
         "promocao": false,
         "desconto": 0
@@ -94,7 +94,7 @@
         "nome": "Conjunto Pulseiras Coral",
         "preco": 155.0,
         "descricao": "Mix de 3 pulseiras feitas com tampinhas de garrafa trituradas, simulando a textura e as cores vibrantes dos recifes de corais.",
-        "imagem": "/imagens/produtos/pulseiras-coral.jpg",
+        "imagem": "/produtos/pulseiras-coral.jpg",
         "categoria": "Pulseiras",
         "promocao": true,
         "desconto": 30
