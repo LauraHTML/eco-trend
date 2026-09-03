@@ -8,15 +8,12 @@ const Carrinho = () => {
 
   useEffect(() => {
     const dados = localStorage.getItem('carrinho');
-    console.log(dados)
     try {
       setPedidos(dados ? JSON.parse(dados) : []);
     } catch {
       setPedidos([]);
     };
   },[]);
-
-  console.log(pedidos);
 
   return (
     <>

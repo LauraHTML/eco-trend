@@ -12,6 +12,7 @@ import App from './pages/App'
 import Carrinho from './pages/Carrinho'
 import Produtos from './pages/Produtos'
 import Sobre from './pages/Sobre'
+import Promocao from './pages/Promocao';
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,11 @@ const router = createBrowserRouter([
   {
     path: "/sobre-nos",
     element: <Sobre />
-  }
+  },
+  {
+    path: "/promocao",
+    element: <Promocao/>
+  },
 ])
 
 //ErrorBoundary or errorElement prop on your route.
