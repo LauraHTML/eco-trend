@@ -20,7 +20,7 @@ const Card = ({ titulo = 'card', categorias = [], desc = 'lorem ipsum', acao, pr
             {/* actions */}
             <div className='flex flex-col md:flex-row justify-between items-center px-2 mt-auto'>
                 <p>R$ {preco}</p>
-                <Button estilizacao={'rounded-md bg-secondary'} nome={'Comprar'} acao={acao} />
+                <Button estilizacao={'rounded-md bg-secondary hover:bg-secondary/85 active:scale-95'} nome={'Comprar'} acao={acao} />
             </div>
         </article>
     )

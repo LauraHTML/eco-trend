@@ -9,11 +9,11 @@ const Button = ({ acao, estilizacao, nome, icone: Icon = MoveRight }) => {
     //colocar estilização padrao
 
     return (
-        <button className={`flex flex-row items-center gap-2 whitespace-nowrap ${estilizacao} p-2 px-3`} onClick={acao}>
+        <button className={`flex flex-row items-center gap-2 whitespace-nowrap cursor-pointer ${estilizacao} p-2 px-3`} onClick={acao}>
             {nome}
             <Icon size={18} />
         </button>
     )
 }
 
-export default Button
+export default Button 
