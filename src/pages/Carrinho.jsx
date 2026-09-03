@@ -1,8 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-import produtos from '../services/produtos.json';
-
 const Carrinho = () => {
   const [pedidos, setPedidos] = useState([]);
 
@@ -26,11 +24,16 @@ const Carrinho = () => {
           
         ) : (
           pedidos.map((produto) => (
-            <div key={produto.id} className='border rounded-md mb-3 p-2'>
+            <div key={produto.id} className='border rounded-md mb-3 p-2 flex gap-4 items-center'>
+
+            <img src={produto.imagem} alt={produto.nome} className='w-24 h-24 object-cover rounded-md'/>
+
+            <div>
               <h3>{produto.nome}</h3>
               <p>Quantidade: {produto.quantidade}</p>
               <p>R$ {produto.preco}</p>
             </div>
+          </div>
           ))
         ) }
         </section>
