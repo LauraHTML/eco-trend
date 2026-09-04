@@ -1,16 +1,62 @@
-# React + Vite
+# EcoTrend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O EcoTrend foi desenvolvido com o objetivo de criar uma plataforma de e-commerce com foco em produtos sustentáveis, aplicando conceitos de desenvolvimento web, componentização, gerenciamento de estado, consumo de dados, armazenamento local e navegação entre páginas.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Visualização de produtos
+* Filtro por categoria
+* Produtos em promoção
+* Adição e gerenciamento de produtos no carrinho
+* Modal de confirmação ao adicionar produtos
+* Navegação entre páginas
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+* React Router DOM
+* LocalStorage
+* Lucide React
 
-## Expanding the ESLint configuration
+## Como executar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Pré-requisitos
+
+É necessário ter instalado:
+
+* Node.js
+* npm
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/LauraHTML/eco-trend.git
+cd eco-trend
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+
+
+## Deploy
+
+Link no Vercel:
+
+
+## Desenvolvido por 
+
+- BEATRIZ MANTOVANI - 573824
+- LAURA SAMPAIO NEVES - 570802
