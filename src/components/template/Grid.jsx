@@ -9,6 +9,7 @@ const Grid = ({ titulo = 'titulo', subtitulo = 'subtitulo', itens = [], acaoCard
         <h4>{subtitulo}</h4>
       </div>
       {/* numero de linhas e colunas */}
+
       <div className='mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-stretch'>
         {Object.entries(itens).map(([chave, valor]) => (
           <Card
@@ -21,6 +22,7 @@ const Grid = ({ titulo = 'titulo', subtitulo = 'subtitulo', itens = [], acaoCard
             acao={() => acaoCard(valor)} />
         ))}
       </div>
+      
     </section>
   )
 }
