@@ -11,7 +11,7 @@ function App() {
     <>
     <main className='flex flex-col gap-8'>
        <CTA
-        cta={'Bem vind@ a EcoTrend'}
+        cta={'Bem vinda(o) a EcoTrend'}
         titulo={'A verdadeira elegância não custa o planeta'}
         texto={'A Eco Trend nasceu da urgência de limpar nossos litorais e da paixão por um estilo de vida sustentável.'}
         btnCta='Explorar site'
